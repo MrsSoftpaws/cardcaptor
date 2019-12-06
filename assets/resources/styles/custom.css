@@ -5,15 +5,16 @@
 }
 
 #cards {
-    margin: 2em 8em 3em;
+    margin: 2em 5em 2em;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 550;
     text-align: justify;
 }
 
-div>a {
+#c-title {
     font-size: 2em;
+    font-weight: 580;
 }
 
 #logo {

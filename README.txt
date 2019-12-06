@@ -19,24 +19,24 @@ Temporizadores
 Fun��es
 () Fun��o an�nima com argumento
 (x) Fun��o an�nima sem argumento
-() Fun��o an�nima com retorno
-(x) Fun��o auto-execut�vel
-() Fun��o com nome
-() Fun��o aninhada/local - declarar uma fun��o dentro de outra
-() Passagem de uma fun��o como par�metro
-() Fun��o Flecha - Arrow Function
+() Função anônima com retorno
+(x) Função auto-execut�vel
+(x) Função com nome
+(x) Função aninhada/local - declarar uma fun��o dentro de outra
+(x) Passagem de uma fun��o como par�metro
+() Função Flecha - Arrow Function
 
 Eventos
 (x) Evento de carregamento do documento - onload
 () Evento de movimento do mouse
 () Evento de teclado - usar charCode ou keyCode
-() Eventos de formul�rio - onfocus e onblur
-() Imprimir alguma propriedade do objeto event recebido como par�metro
-() Propaga��o de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
+(x) Eventos de formulário - onfocus e onblur
+() Imprimir alguma propriedade do objeto event recebido como parâmetro
+() Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
 
 Acesso aos elementos DOM do HTML
 () Via referência DOM pelo id do elemento HTML
-() Via getElementByID()
+(x) Via getElementByID()
 () Via getElementsByName()
 () Via getElementsByTagName()
 () Via seletores CSS usados na função querySelector() ou querySelectorAll()
@@ -48,10 +48,10 @@ Tratadores de Evento
 () Usar o operador this em fun��es tratadoras de eventos.
 
 Formulário
-() Valida��o de formul�rio com onsubmit usando os m�todos tradicionais
+() Validação de formulário com onsubmit usando os m�todos tradicionais
 (x) Valida��o de formul�rio com HTML5 API
-() Customizar as mensagens nos bal�es de mensagem
-() Usar os atributos de valida��o dos inputs
+(x) Customizar as mensagens nos bal�es de mensagem
+() Usar os atributos de validação dos inputs
 (x) Usar expressões regulares
 () Ler e escrever em elementos input com a propriedade value
 () Alterar o conte�do de elementos div ou p com a propriedade innerHTML ou textContent
@@ -71,7 +71,7 @@ Objetos
 
 jQuery
 () Uso de seletores CSS - id, classe e tag
-(x) Uso de seletores hier�rquicos est�ticos - ancestral/descendente, pai/filho, anterior/pr�ximo
+() Uso de seletores hier�rquicos est�ticos - ancestral/descendente, pai/filho, anterior/pr�ximo
 () Uso de seletores hier�rquicos din�micos - parent/children/next
 () Efeitos fade ou slide
 () Especificar o tratador de algum evento via jQuery
