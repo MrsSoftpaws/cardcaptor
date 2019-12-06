@@ -35,24 +35,24 @@ Eventos
 () Propaga��o de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
 
 Acesso aos elementos DOM do HTML
-() Via refer�ncia DOM pelo id do elemento HTML
+() Via referência DOM pelo id do elemento HTML
 () Via getElementByID()
 () Via getElementsByName()
 () Via getElementsByTagName()
-() Via seletores CSS usados na fun��o querySelector() ou querySelectorAll()
+() Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
 Tratadores de Evento
 () Especificar o tratador de evento inline
-() Especificar o tratador de evento no carregamento da p�gina HTML no modo tradicional - no onload
-() Especificar o tratador de evento no carregamento da p�gina HTML com a fun��o addEventListener - no onload
+(x) Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
+() Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
 () Usar o operador this em fun��es tratadoras de eventos.
 
-Formul�rio
+Formulário
 () Valida��o de formul�rio com onsubmit usando os m�todos tradicionais
 (x) Valida��o de formul�rio com HTML5 API
 () Customizar as mensagens nos bal�es de mensagem
 () Usar os atributos de valida��o dos inputs
-() Usar express�es regulares
+(x) Usar expressões regulares
 () Ler e escrever em elementos input com a propriedade value
 () Alterar o conte�do de elementos div ou p com a propriedade innerHTML ou textContent
 () Manipula��o de elemento de listagem, como checkbox, radio ou select
@@ -62,7 +62,7 @@ Objetos Nativos
 () Usar pelo menos 3 m�todos de manipula��o de array
 () Usar la�o de repeti��o (for..in ou for..of ou forEach)
 () Usar pelo menos 3 m�todos para manipula��o de string
-() String Template
+(x) String Template
 
 Objetos
 () Criar objeto usando fun��o construtora ou nota��o literal
@@ -71,7 +71,7 @@ Objetos
 
 jQuery
 () Uso de seletores CSS - id, classe e tag
-() Uso de seletores hier�rquicos est�ticos - ancestral/descendente, pai/filho, anterior/pr�ximo
+(x) Uso de seletores hier�rquicos est�ticos - ancestral/descendente, pai/filho, anterior/pr�ximo
 () Uso de seletores hier�rquicos din�micos - parent/children/next
 () Efeitos fade ou slide
 () Especificar o tratador de algum evento via jQuery

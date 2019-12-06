@@ -12,6 +12,10 @@
     text-align: justify;
 }
 
+div>a {
+    font-size: 2em;
+}
+
 #logo {
     margin-left: 8em;
     width: 22em;
@@ -35,12 +39,4 @@ h3 {
 
 #side-input {
     margin-top: 6em;
-}
-
-input:invalid {
-    border-color: red;
-}
-
-input:valid {
-    border-color: blue;
 }
