@@ -1,0 +1,3 @@
+submitForm = function () {
+    alert("sent");
+};

@@ -1,5 +1,5 @@
 Qualidade do c�digo
-( ) Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
+(x) Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
 (x) Usar um lint - mostrar a corre��o de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc dispon�vel no moodle)
 (x) Usar strict mode
 ( ) Usar Module Pattern
@@ -27,7 +27,7 @@ Fun��es
 () Fun��o Flecha - Arrow Function
 
 Eventos
-() Evento de carregamento do documento - onload
+(x) Evento de carregamento do documento - onload
 () Evento de movimento do mouse
 () Evento de teclado - usar charCode ou keyCode
 () Eventos de formul�rio - onfocus e onblur
@@ -49,7 +49,7 @@ Tratadores de Evento
 
 Formul�rio
 () Valida��o de formul�rio com onsubmit usando os m�todos tradicionais
-() Valida��o de formul�rio com HTML5 API
+(x) Valida��o de formul�rio com HTML5 API
 () Customizar as mensagens nos bal�es de mensagem
 () Usar os atributos de valida��o dos inputs
 () Usar express�es regulares

@@ -1,4 +1,4 @@
-p {
+#home-text {
     margin-top: 2em;
     font-size: larger;
     text-align: justify;
@@ -33,6 +33,14 @@ h3 {
     width: 25em;
 }
 
-#input-field {
-    float: right;
+#side-input {
+    margin-top: 6em;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: blue;
 }
