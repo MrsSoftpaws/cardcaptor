@@ -1,0 +1,28 @@
+{
+  "name": "cardcaptor",
+  "version": "1.0.0",
+  "description": "Qualidade do c�digo\r (x) Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)\r (x) Usar um lint - mostrar a corre��o de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc dispon�vel no moodle)\r ( ) Usar strict mode\r ( ) Usar Module Pattern\r (x) Usar pasta assets e subpastas resources e libraries para organizar o c�digo\r (x) Usar let ou const ao inv�s de var\r (x) Nomes de arquivos min�sculos e separados por h�fen (dashed-case)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
