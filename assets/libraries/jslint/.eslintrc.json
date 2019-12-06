@@ -4,5 +4,8 @@
     "rules": {
         "no-console": "off",
         "prettier/prettier": "error"
+    },
+    "jslint.options": {
+        "esversion": 6
     }
 }

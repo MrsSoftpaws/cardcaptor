@@ -1,82 +1,82 @@
-Qualidade do código
-(x) Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
-(x) Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc disponível no moodle)
+Qualidade do cï¿½digo
+( ) Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
+(x) Usar um lint - mostrar a correï¿½ï¿½o de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc disponï¿½vel no moodle)
 (x) Usar strict mode
 ( ) Usar Module Pattern
-(x) Usar pasta assets e subpastas resources e libraries para organizar o código
-(x) Usar let ou const ao invés de var
-(x) Nomes de arquivos minúsculos e separados por hífen (dashed-case)
+(x) Usar pasta assets e subpastas resources e libraries para organizar o cï¿½digo
+(x) Usar let ou const ao invï¿½s de var
+(x) Nomes de arquivos minï¿½sculos e separados por hï¿½fen (dashed-case)
 
-Caixas de Diálogo
-() prompt
-() alert
+Caixas de Diï¿½logo
+(x) prompt
+(x) alert
 () confirm
 
 Temporizadores
 () setInterval
 () setTimeout
 
-Funções
-() Função anônima com argumento
-() Função anônima sem argumento
-() Função anônima com retorno
-() Função auto-executável
-() Função com nome
-() Função aninhada/local - declarar uma função dentro de outra
-() Passagem de uma função como parâmetro
-() Função Flecha - Arrow Function
+Funï¿½ï¿½es
+() Funï¿½ï¿½o anï¿½nima com argumento
+(x) Funï¿½ï¿½o anï¿½nima sem argumento
+() Funï¿½ï¿½o anï¿½nima com retorno
+(x) Funï¿½ï¿½o auto-executï¿½vel
+() Funï¿½ï¿½o com nome
+() Funï¿½ï¿½o aninhada/local - declarar uma funï¿½ï¿½o dentro de outra
+() Passagem de uma funï¿½ï¿½o como parï¿½metro
+() Funï¿½ï¿½o Flecha - Arrow Function
 
 Eventos
 () Evento de carregamento do documento - onload
 () Evento de movimento do mouse
 () Evento de teclado - usar charCode ou keyCode
-() Eventos de formulário - onfocus e onblur
-() Imprimir alguma propriedade do objeto event recebido como parâmetro
-() Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
+() Eventos de formulï¿½rio - onfocus e onblur
+() Imprimir alguma propriedade do objeto event recebido como parï¿½metro
+() Propagaï¿½ï¿½o de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
 
 Acesso aos elementos DOM do HTML
-() Via referência DOM pelo id do elemento HTML
+() Via referï¿½ncia DOM pelo id do elemento HTML
 () Via getElementByID()
 () Via getElementsByName()
 () Via getElementsByTagName()
-() Via seletores CSS usados na função querySelector() ou querySelectorAll()
+() Via seletores CSS usados na funï¿½ï¿½o querySelector() ou querySelectorAll()
 
 Tratadores de Evento
 () Especificar o tratador de evento inline
-() Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
-() Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
-() Usar o operador this em funções tratadoras de eventos.
+() Especificar o tratador de evento no carregamento da pï¿½gina HTML no modo tradicional - no onload
+() Especificar o tratador de evento no carregamento da pï¿½gina HTML com a funï¿½ï¿½o addEventListener - no onload
+() Usar o operador this em funï¿½ï¿½es tratadoras de eventos.
 
-Formulário
-() Validação de formulário com onsubmit usando os métodos tradicionais
-() Validação de formulário com HTML5 API
-() Customizar as mensagens nos balões de mensagem
-() Usar os atributos de validação dos inputs
-() Usar expressões regulares
+Formulï¿½rio
+() Validaï¿½ï¿½o de formulï¿½rio com onsubmit usando os mï¿½todos tradicionais
+() Validaï¿½ï¿½o de formulï¿½rio com HTML5 API
+() Customizar as mensagens nos balï¿½es de mensagem
+() Usar os atributos de validaï¿½ï¿½o dos inputs
+() Usar expressï¿½es regulares
 () Ler e escrever em elementos input com a propriedade value
-() Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
-() Manipulação de elemento de listagem, como checkbox, radio ou select
-() Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
+() Alterar o conteï¿½do de elementos div ou p com a propriedade innerHTML ou textContent
+() Manipulaï¿½ï¿½o de elemento de listagem, como checkbox, radio ou select
+() Acesso aos elementos de um formulï¿½rio via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
 Objetos Nativos
-() Usar pelo menos 3 métodos de manipulação de array
-() Usar laço de repetição (for..in ou for..of ou forEach)
-() Usar pelo menos 3 métodos para manipulação de string
+() Usar pelo menos 3 mï¿½todos de manipulaï¿½ï¿½o de array
+() Usar laï¿½o de repetiï¿½ï¿½o (for..in ou for..of ou forEach)
+() Usar pelo menos 3 mï¿½todos para manipulaï¿½ï¿½o de string
 () String Template
 
 Objetos
-() Criar objeto usando função construtora ou notação literal
-() Criar objetos a partir da definição de classes do ES6
-() Usar herança prototipal nativa ou herança de classes do ES6
+() Criar objeto usando funï¿½ï¿½o construtora ou notaï¿½ï¿½o literal
+() Criar objetos a partir da definiï¿½ï¿½o de classes do ES6
+() Usar heranï¿½a prototipal nativa ou heranï¿½a de classes do ES6
 
 jQuery
 () Uso de seletores CSS - id, classe e tag
-() Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
-() Uso de seletores hierárquicos dinâmicos - parent/children/next
+() Uso de seletores hierï¿½rquicos estï¿½ticos - ancestral/descendente, pai/filho, anterior/prï¿½ximo
+() Uso de seletores hierï¿½rquicos dinï¿½micos - parent/children/next
 () Efeitos fade ou slide
 () Especificar o tratador de algum evento via jQuery
-() Manipulação do CSS via função css() e addClass()/removeClass()
-() Manipulação do conteúdo de um input e div usando jQuery
+() Manipulaï¿½ï¿½o do CSS via funï¿½ï¿½o css() e addClass()/removeClass()
+() Manipulaï¿½ï¿½o do conteï¿½do de um input e div usando jQuery
 () Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
 Web Storage

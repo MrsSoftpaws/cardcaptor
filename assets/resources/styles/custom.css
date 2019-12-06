@@ -1,3 +1,38 @@
 p {
+    margin-top: 2em;
     font-size: larger;
+    text-align: justify;
+}
+
+#cards {
+    margin: 2em 8em 3em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2em;
+    font-weight: 550;
+    text-align: justify;
+}
+
+#logo {
+    margin-left: 8em;
+    width: 22em;
+    height: 5em;
+}
+
+#extended {
+    margin-left: 8em;
+}
+
+h2,
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4.5em;
+}
+
+#register-img {
+    float: left;
+    width: 25em;
+}
+
+#input-field {
+    float: right;
 }
