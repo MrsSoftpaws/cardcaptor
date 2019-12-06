@@ -11,4 +11,12 @@
             this.setCustomValidity("");
         }
     }
+
+    let validBias = function () {
+        if ($("register").$("select").selectedIndex == 0) {
+            alert("Please select your bias");
+            return false;
+        }
+    }
+
 })();

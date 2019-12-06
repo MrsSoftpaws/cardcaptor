@@ -37,7 +37,7 @@
                 <img id="register-img" class="respondive-img container" src="assets/resources/img/register-img.jpg">
             </div>
             <div class="col s12 l5 offset-l2" id="side-input">
-                <form onsubmit="submitForm()">
+                <form onsubmit="submitForm()" id="form-register">
                     <div class="input-field">
                         <i class="material-icons prefix deep-orange-text">account_circle</i>
                         <input type="text" id="input-name" required>
@@ -63,7 +63,7 @@
                         </select>
                     </div>
                     <div class="input-field center">
-                        <button type="submit" class="btn brown">Submit</button>
+                        <button type="submit" class="btn brown" onclick="validBias()">Submit</button>
                     </div>
                 </form>
             </div>
