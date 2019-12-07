@@ -1,22 +1,19 @@
 (submitForm = function () {
-    let $ = function (id) {
-        return document.getElementById(id);
-    }
-
-    let emailValid = $("input-email");
-    emailValid.onblur = function () {
-        if (this.validity.patternMismatch) {
-            this.setCustomValidity("Insert a valid email");
-        } else {
-            this.setCustomValidity("");
+        let $ = function (id) {
+            return document.getElementById(id);
         }
-    }
 
-    let validBias = function () {
-        if ($("register").$("select").selectedIndex == 0) {
-            alert("Please select your bias");
-            return false;
-        }
-    }
+        let emailValid = $("input-email");
+        emailValid.addEventListener("focusout", function () {
+                alert("aaaa")
+            };
 
-})();
+            function validSelect() {
+                if ($("select")[0].selectedIndex != 0) {
+                    $('#buttonSubmit').prop('disabled', false);
+                } else {
+                    $('#buttonSubmit').prop('disabled', true);
+                }
+
+            }
+        });
