@@ -19,7 +19,6 @@
                 <ul class="tabs tabs-transparent">
                     <li class="tab"><a href="index.html">Home</a></li>
                     <li class="tab"><a href="card-version.html">My Cards</a></li>
-                    <li class="tab"><a href="gallery.html">Gallery</a></li>
                     <li class="tab active"><a href="register.html">Register</a></li>
                 </ul>
             </div>
@@ -33,12 +32,12 @@
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="deep-orange-text darken-4-text">Register</h2>
-                <p>Click on the image to open the formulary and nsert your information on the fields so you can set your
+                <p>Insert your information on the fields so you can set your
                     card collection on our website</p>
                 <img id="register-img" class="respondive-img container" src="assets/resources/img/register-img.jpg">
             </div>
             <div class="col s12 l5 offset-l2" id="side-input">
-                <form onsubmit="return submitForm()" id="form-register">
+                <form onsubmit="return confirm('Are you sure you want to send?')" id="form-register">
                     <div class="input-field">
                         <i class="material-icons prefix deep-orange-text">account_circle</i>
                         <input type="text" id="input-name" required>
@@ -51,7 +50,7 @@
                     </div>
                     <div class="input-field col s12">
                         <i class="material-icons prefix deep-orange-text">favorite</i>
-                        <select id="select" required onchange="validSelect()">
+                        <select id="select" required>
                             <option value="">Choose your bias</option>
                             <option value="1">Hongjoong</option>
                             <option value="2">Seonghwa</option>
@@ -64,8 +63,7 @@
                         </select>
                     </div>
                     <div class="input-field center">
-                        <button id="buttonSubmit" type="submit" class="btn brown" onclick="validSelect()"
-                            disabled>Submit</button>
+                        <button id="buttonSubmit" type="submit" class="btn brown" disabled>Submit</button>
                     </div>
                 </form>
             </div>
@@ -104,11 +102,6 @@
 <script>
     $(document).ready(function () {
         $('select').formSelect();
-
-        $('.respondive-img').click(function () {
-            $('side-input').slideDown(500);
-        });
-
     });
 </script>
 
